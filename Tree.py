@@ -100,8 +100,14 @@ class Tree:
         # No imbalance, so just return the original node.
         return node
 
+    # Ensure that we keep our no-duplicates status
     def insert(self, data):
-        self.insert_node(Node(data))
+        if self.search(data):
+            # Key already exists
+            return False
+        else:
+            self.insert_node(Node(data))
+            return True
 
     def insert_node(self, node):
 
@@ -215,9 +221,9 @@ class Tree:
             # If it is a match, return the current key; otherwise go
             # either to the left or right, depending on whether the
             # current node's key is smaller or larger than the target key.
-            if current_node.key == key:
+            if current_node.data == key:
                 return current_node
-            elif current_node.key < key:
+            elif current_node.data < key:
                 current_node = current_node.right
             else:
                 current_node = current_node.left
