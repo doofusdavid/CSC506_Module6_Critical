@@ -1,8 +1,16 @@
-# CSC506_Module6_Option1_CriticalThinking
+# Module6 - Critical Thinking - Option1
 
 ## David Edwards
 
+## CSC565 - Design and Analysis of Algorithms
+
+## Colorado State University-Global Campus
+
+## Dr. Isaac K. Gang
+
 ## April 25, 2021
+
+---
 
 - Build a Node class. It is should have attributes for the data it stores as well as its left and right children. As a bonus, try including the Comparable module and make nodes compare using their data attribute.
 - Build a Tree class which accepts an array when initialized. The Tree class should have a root attribute which uses the return value of #build_tree which you'll write next.
@@ -104,4 +112,6 @@ print(tree)
             3
                 1
 
-This shows the tree being properly rebalanced.
+This shows the tree being properly rebalanced. Here is the full execution screen shot:
+
+![Execution Screen Shot](runtime_screenshot.png?raw=true)
