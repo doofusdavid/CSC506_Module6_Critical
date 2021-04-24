@@ -1,14 +1,14 @@
 # Module6 - Critical Thinking - Option1
 
-## David Edwards
+### David Edwards
 
-## CSC565 - Design and Analysis of Algorithms
+### CSC565 - Design and Analysis of Algorithms
 
-## Colorado State University-Global Campus
+### Colorado State University-Global Campus
 
-## Dr. Isaac K. Gang
+### Dr. Isaac K. Gang
 
-## April 25, 2021
+### April 25, 2021
 
 ---
 
