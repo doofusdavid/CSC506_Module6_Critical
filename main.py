@@ -16,5 +16,4 @@ tree.insert(122)
 tree.insert(121)
 tree.insert(120)
 tree.insert(119)
-
 print(tree)
