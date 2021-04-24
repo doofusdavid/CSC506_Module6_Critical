@@ -2,8 +2,10 @@ from Node import Node
 
 
 class Tree:
-    def __init__(self):
+    def __init__(self, data_array=None):
         self.root = None
+        if data_array is not None:
+            self.build_tree(data_array)
 
     def build_tree(self, data_array):
         sort_array = sorted(data_array)

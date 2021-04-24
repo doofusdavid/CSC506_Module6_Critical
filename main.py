@@ -12,7 +12,9 @@ tree.insert(232)
 print(tree)
 # Try to unbalance tree
 tree.insert(123)
-print(tree)
 tree.insert(122)
 tree.insert(121)
+tree.insert(120)
+tree.insert(119)
+
 print(tree)
